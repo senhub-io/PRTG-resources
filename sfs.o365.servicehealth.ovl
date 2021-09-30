@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ValueLookup id="sfs.o365.servicehealth" desiredValue="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+      <SingleInt state="Ok" value="1">
+        serviceOperational
+      </SingleInt>
+      <SingleInt state="Warning" value="2">
+        investigating
+      </SingleInt>
+	    <SingleInt state="Warning" value="3">
+        serviceDegradation
+      </SingleInt>
+      <SingleInt state="Error" value="4">
+        serviceInterruption
+      </SingleInt>
+      <SingleInt state="Error" value="5">
+        restoringService
+      </SingleInt>
+      <SingleInt state="Warning" value="6">
+        extendedRecovery
+      </SingleInt>
+      <SingleInt state="Ok" value="7">
+        investigationSuspended
+      </SingleInt>
+      <SingleInt state="Ok" value="8">
+        serviceRestored
+      </SingleInt>
+      <SingleInt state="Ok" value="9">
+        falsePositive
+      </SingleInt>
+      <SingleInt state="Ok" value="10">
+        postIncidentReportPublished
+      </SingleInt> 
+    </Lookups>
+  </ValueLookup>
