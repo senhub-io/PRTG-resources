@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ValueLookup id="sfs.ovh.vps.status" desiredValue="6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+      <SingleInt state="None" value="0">
+        Unknown
+      </SingleInt>
+      <SingleInt state="Ok" value="1">
+        Backupinga
+      </SingleInt>
+	  <SingleInt state="Ok" value="2">
+        Installing
+      </SingleInt>
+	  <SingleInt state="Ok" value="3">
+        Maintenance
+      </SingleInt>
+	  <SingleInt state="Warning" value="4">
+        Rebooting
+      </SingleInt>
+	  <SingleInt state="Ok" value="5">
+        Rescued
+      </SingleInt>
+	  <SingleInt state="Ok" value="6">
+        Running
+      </SingleInt>
+	  <SingleInt state="Error" value="7">
+        Stopped
+      </SingleInt>
+	  <SingleInt state="Warning" value="8">
+        Stopping
+      </SingleInt>
+	  <SingleInt state="Warning" value="9">
+        Upgrading
+      </SingleInt>
+    </Lookups>
+  </ValueLookup>
