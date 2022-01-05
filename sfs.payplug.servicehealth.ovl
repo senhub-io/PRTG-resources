@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ValueLookup id="sfs.payplug.servicehealth" desiredValue="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+      <SingleInt state="Ok" value="1">
+        Operationnal
+      </SingleInt>
+      <SingleInt state="Warning" value="2">
+        Partial Outage
+      </SingleInt>
+	  </SingleInt>
+      <SingleInt state="Warning" value="3">
+        Degraded Performance
+      </SingleInt>
+	  <SingleInt state="Warning" value="4">
+        Major Outage
+      </SingleInt>
+	  <SingleInt state="Warning" value="5">
+        Under Maintenance
+      </SingleInt>
+	  <SingleInt state="Unknown" value="0">
+        Unknown
+      </SingleInt>
+    </Lookups>
+  </ValueLookup>
