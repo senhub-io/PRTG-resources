@@ -17,7 +17,7 @@
 	  <SingleInt state="Warning" value="5">
         Under Maintenance
       </SingleInt>
-	  <SingleInt state="Unknown" value="0">
+	  <SingleInt state="None" value="0">
         Unknown
       </SingleInt>
     </Lookups>
