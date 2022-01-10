@@ -8,7 +8,7 @@
         Active incident
       </SingleInt>
 	  </SingleInt>
-      <SingleInt state="Unknown" value="3">
+      <SingleInt state="None" value="3">
         Unknown
       </SingleInt>
     </Lookups>
