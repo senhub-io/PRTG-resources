@@ -7,8 +7,7 @@
       <SingleInt state="Error" value="2">
         Active incident
       </SingleInt>
-	  </SingleInt>
-      <SingleInt state="None" value="3">
+	<SingleInt state="None" value="3">
         Unknown
       </SingleInt>
     </Lookups>
