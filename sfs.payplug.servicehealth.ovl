@@ -7,7 +7,6 @@
       <SingleInt state="Warning" value="2">
         Partial Outage
       </SingleInt>
-	  </SingleInt>
       <SingleInt state="Warning" value="3">
         Degraded Performance
       </SingleInt>
