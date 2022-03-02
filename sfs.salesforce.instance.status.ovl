@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ValueLookup id="sfs.salesforce.instance.status" desiredValue="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+      <SingleInt state="Ok" value="1">
+        Ok
+      </SingleInt>
+      <SingleInt state="Error" value="2">
+        Major Core Incident
+      </SingleInt>
+      <SingleInt state="Warning" value="3">
+        Minor Core Incident
+      </SingleInt>
+	  <SingleInt state="Warning" value="4">
+        Core Maintenance
+      </SingleInt>
+	  <SingleInt state="Error" value="5">
+        Major NonCore Incident
+      </SingleInt>
+	  <SingleInt state="Warning" value="6">
+        Minor NonCore Incident
+      </SingleInt>
+    <SingleInt state="Warning" value="7">
+        NonCore Maintenance
+      </SingleInt>
+    </Lookups>
+  </ValueLookup>
