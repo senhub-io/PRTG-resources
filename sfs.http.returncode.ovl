@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="sfs.http.returncode" desiredValue="200">
+<Lookups>
+    <Range From="100" To="103" state="Ok">
+        Information
+    </Range>
+    <Range From="200" To="226" state="Ok">
+        Success
+    </Range>
+    <Range From="300" To="310" state="Warning">
+        Redirection
+    </Range>
+    <Range From="400" To="499" state="Error">
+        Error (web client)
+    </Range>
+    <Range From="500" To="527" state="Error">
+        Error (server)
+    </Range>
+</Lookups>
+</ValueLookup>
