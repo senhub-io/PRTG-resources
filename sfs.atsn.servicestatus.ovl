@@ -10,10 +10,10 @@
       <SingleInt state="Warning" value="3">
         Degraded Performance
       </SingleInt>
-	  <SingleInt state="Warning" value="4">
+	  <SingleInt state="Error" value="4">
         Major Outage
       </SingleInt>
-	  <SingleInt state="Warning" value="5">
+	  <SingleInt state="Error" value="5">
         Under Maintenance
       </SingleInt>
 	  <SingleInt state="None" value="0">
