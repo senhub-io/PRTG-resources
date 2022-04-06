@@ -13,10 +13,13 @@
 	  <SingleInt state="Error" value="4">
         Major Outage
       </SingleInt>
-	  <SingleInt state="Error" value="5">
+      <SingleInt state="Error" value="5">
         Under Maintenance
       </SingleInt>
-	  <SingleInt state="None" value="0">
+      <SingleInt state="Warning" value="6">
+        Re-routed
+      </SingleInt>
+      <SingleInt state="None" value="0">
         Unknown
       </SingleInt>
     </Lookups>
