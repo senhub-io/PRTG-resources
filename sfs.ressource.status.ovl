@@ -22,6 +22,11 @@
 	  <SingleInt state="Ok" value="6">
         Online
       </SingleInt>
-	  
+	  <SingleInt state="Ok" value="7">
+        Disabled
+      </SingleInt>
+	    <SingleInt state="Ok" value="8">
+        Enabled
+      </SingleInt>
     </Lookups>
   </ValueLookup>
