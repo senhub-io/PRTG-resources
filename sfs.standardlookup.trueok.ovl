@@ -2,10 +2,13 @@
   <ValueLookup id="sfs.standardlookup.trueok" desiredValue="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
     <Lookups>
       <SingleInt state="Error" value="0">
-        No
+        KO
       </SingleInt>
       <SingleInt state="Ok" value="1">
-        Yes
+        OK
+      </SingleInt>
+      <SingleInt state="None" value="2">
+        UNKNOWN
       </SingleInt>
     </Lookups>
   </ValueLookup>
