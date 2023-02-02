@@ -13,7 +13,7 @@
 	  <SingleInt state="Error" value="4">
         Major Outage
       </SingleInt>
-      <SingleInt state="Error" value="5">
+      <SingleInt state="Warning" value="5">
         Under Maintenance
       </SingleInt>
       <SingleInt state="Warning" value="6">
