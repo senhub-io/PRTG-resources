@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <ValueLookup id="sfs.entraid.syncappstatus" desiredValue="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+      <SingleInt state="Ok" value="1">
+        Active
+      </SingleInt>
+      <SingleInt state="Warning" value="2">
+        Paused
+      </SingleInt>
+       <SingleInt state="Error" value="3">
+        Quarantine
+      </SingleInt>
+      <SingleInt state="Error" value="4">
+        NotRun
+      </SingleInt>
+      <SingleInt state="None" value="5">
+        NotConfigured
+      </SingleInt>
+    </Lookups>
+  </ValueLookup>
