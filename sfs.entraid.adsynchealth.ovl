@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<ValueLookup id="sfs.entraid.adsynchealth" desiredValue="6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+		<Lookups>
+			<boolean state="OK" value="1">Yes</boolean>
+			<boolean state="ERROR" value="0">No</boolean>
+	  </Lookups>
+</ValueLookup>
