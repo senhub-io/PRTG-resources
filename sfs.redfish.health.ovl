@@ -2,16 +2,16 @@
 <ValueLookup id="sfs.redfish.health" desiredValue="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
   <Lookups>
     <SingleInt state="Ok" value="0">
-      OK - Healthy
+      Healthy
     </SingleInt>
     <SingleInt state="Warning" value="1">
-      Warning - Degraded
+      Degraded
     </SingleInt>
     <SingleInt state="Error" value="2">
-      Critical - Failed
+      Failed
     </SingleInt>
     <SingleInt state="Warning" value="3">
-      Unknown - Status unavailable
+      Status unavailable
     </SingleInt>
   </Lookups>
 </ValueLookup>
